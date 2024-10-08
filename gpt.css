@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+main {
+  padding-top: 60px; /* Push content below the fixed header */
+}

@@ -1,0 +1,7 @@
+#testimonialContent {
+  transition: opacity 0.5s ease-in-out;
+}
+.last {
+  margin-left: 80px;
+  margin-top: 360px;
+}

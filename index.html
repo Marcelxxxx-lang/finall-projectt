@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FINAL PROJECT</title>
+    <style media="all">
+      .mobile-display{display:none}
+      .desktop-display{display:block}
+      @media (max-width:767px){
+      .desktop-display {display:none}
+      .mobile-display {display:block}
+      }
+      </style>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <section class="desktop-display">
+    <div class="">
+    <!-- This is the nav bar -->
+    <header class="">
+    <div class="navbarbigdiv">
+    
+      <div class="navbarfirstdiv">
+        <nav class="dnavbar">
+          <a href="#Home">Home</a>
+          <a href="#Services">Services</a>
+          <a href="#Portfolio">Portfolio</a>
+          <a href="#Testimonial">Testimonial</a>
+        </nav>
+      </div >
+      <div class="navbarseconddiv"><button class="btn-1">Contact</button></div>
+    </div>
+   </header>
+   <div class="heroflex" id="Home">
+    <div class="leftheroo">
+<p class="line2"></p>
+        <h1 class="Solani">
+          I’M SOLANI A <br/>
+          WEB DEVELOPER
+        </h1>
+        <p class="i-craft">
+          I craft high-performing, beautiful websites that are
+          conversion-focused, brand-accurate, & people-friendly.
+        </p> <br><br><br><br><br><br><br><br><br>
+        <button id="openModalBtn1" class="letustalkbtn">
+          <p class="letustalk">LET'S TALK</p>
+        </button>
+        
+        <p class="follow">Follow Me</p>
+        <p class="logo11"><a href="https://dribbble.com/"> <img src="./img/dribbble.svg" alt="" /></a>
+         <a href="https://www.linkedin.com/login"> <img src="./img/Vector (1).svg" alt="" /></a>
+         <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"> <img src="./img/Vector (2).svg" alt="" /></a>
+         <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Faccountscenter.instagram.com%2F%3Fentry_point%3Dapp_settings%26__coig_login%3D1"><img src="./img/Vector (3).svg" alt="" /></a>
+          
+        </p>
+      </div>
+      <div class="right">
+        <img src="./img/image 19.jpg" alt="" class="hero2img" />
+
+      <a href="#Portfolio" > <img src="./img/scroll down (1).svg" alt="arrowdown" class="scrolldown"/></a>
+      </div>
+    </div>
+    </div>
+    <!-- Third part -->
+
+    <div class="bigthirddiv" id="Services">
+      <div class="leftthirddiv">
+        <a class="line3"></a>
+        <p  class="Services">SERVICES I OFFER</p> <br> <br>
+        <p class="ill">
+          I will help you with finding a solution and solve your problem.
+        </p>
+        <button id="openModalBtn2" class="round">
+          <p class="talk" >LET'S TALK</p>
+        </button>
+        
+      </div>
+      <div class="rightthirddiv">
+        <p class="one">
+          01 <span class="web">Web Design</span>
+          <span class="frame2">
+            <button class="toggle-btn1" onclick="toggleLorem('.lorem1')">
+              <img src="./img/Frame 2.svg" alt="" />
+            </button>
+          </span>
+        </p>
+        <p class="lorem1 hidden">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis...
+        </p>
+        <p class="lorem-line"></p>
+      
+        <p class="twoo">
+          02 <span class="web">WordPress Development</span>
+          <span class="frame3">
+            <button class="toggle-btn2" onclick="toggleLorem('.lorem2')">
+              <img src="./img/Frame 2.svg" alt="" />
+            </button>
+          </span>
+        </p>
+        <p class="lorem2 hidden">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis...
+        </p>
+        <p class="lorem-line"></p>
+      
+        <p class="twoo">
+          03 <span class="web">Webflow Development</span>
+          <span class="frame4">
+            <button class="toggle-btn3" onclick="toggleLorem('.lorem3')">
+              <img src="./img/Frame 2.svg" alt="" />
+            </button>
+          </span>
+        </p>
+        <p class="lorem3 hidden">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis...
+        </p>
+        <p class="lorem-line"></p>
+      </div>
+    </div>      
+    <!-- SELECTED WORKS SECTION -->
+    <div id="Portfolio" class="porto"> 
+      <p  class="line3one"></p>
+      <h1 class="selected">SELECTED <br />WORKS</h1> <br>
+      <p class="take">Take a look of some of my projects I <br />have done.</p></div>
+    
+       <!-- the sportx box div -->
+<div class="splash1">
+  <!-- the left side div -->
+  <div><img src="./img/unsplash1.png" alt=""></div>
+<!-- The right side div -->
+
+<div class="sportcont">
+  <p class="x">SportX - Website design</p>
+  <p class="w">Sports Website Design</p>
+  <p class="l">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+  <div class="kbox">
+    <div><p class="k">KNOW MORE</p></div>
+    <div><img src="./img/works arrow.svg" alt="" class="arrow1"></div>
+</div>  
+</div>
+</div>
+
+<!-- the NFT box div -->
+<div class="splash2">
+  <div class="nftcont">
+    <p class="n">NFTme - WordPress Development</p>
+    <p class="f">NFT web development</p>
+    <p class="l">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+    <div class="kbox">
+      <div><p class="k">KNOW MORE</p></div>
+      <div><img src="./img/works arrow.svg" alt="" class="arrow1"></div>
+  </div>  
+  </div>
+  <div><img src="./img/unsplash_d2w-_1LJioQ (1).png" alt="" class="un"></div>
+</div>
+
+
+
+<!-- Dental section -->
+
+<div class="splash3">
+<!-- the left side div -->
+<div><img src="./img/unsplash_d2w-_1LJioQ (2).png" alt=""></div>
+<!-- The right side div -->
+
+<div class="sportcont">
+<p class="d">Dentos - Webflow Development</p>
+<p class="dw">Dentist Web Development</p>
+<p class="l">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+<div class="kbox">
+<div><p class="k">KNOW MORE</p></div>
+<div><img src="./img/works arrow.svg" alt="" class="arrow1"></div>
+</div>  
+</div>
+</div>
+
+
+
+
+  <button class="butbut"><p class="bro">BROWSE ALL</p></button>
+
+
+   
+<!-- TESTIMONIAL -->
+<div class="testimonial" id="Testimonial">
+  <div>
+    <a class="line3"></a>
+    <h1 class="Services">
+      TESTIMONIAL
+
+    </h1>
+    <p class="ill">What people say about me</p>
+    <img src="./img/Rectangle 7.png" alt="" id="testimonialImage" class="rec7">
+  </div>
+
+  <!-- Testimonial container -->
+  <div class="last" id="testimonialContent">
+    <img src="./img/quote.svg" alt="" class="qq">
+    <p class="sona" id="testimonialText">Sonali helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</p>
+    <div class="appleflex">
+      <div>
+        <p class="An" id="testimonialAuthor">Andy Smith</p>
+        <p class="Fo" id="testimonialRole">Founder, Apple</p>
+      </div>
+      <div class="arrowgap">
+        <img src="./img/testiminal arrow left.svg" alt="left arrow" id="leftArrow" onclick="switchTestimonial(-1)">
+        <img src="./img/testiminal arrow right.svg" alt="right arrow" id="rightArrow" onclick="switchTestimonial(1)">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <p class="sayhi">Keep in touch with me <br>
+    Say Hi!</p>
+
+  
+    
+    <button id="openModalBtn3" class="butsayhi">
+      <p class="starta">START A CONVERSATION</p>
+    </button>
+</div>
+<footer>
+ 
+  <div class="theend">
+    <div class="foothome">
+      <a href="#Home">Home</a>
+          <a href="#Services">Services</a>
+          <a href="#Portfolio">Portfolio</a>
+          <a href="#Testimonial">Testimonial</a>
+    </div>
+    <div class="footright">
+      <img src="./img/dribbble.svg" alt="" />
+      <img src="./img/Vector (1).svg" alt="" />
+      <img src="./img/Vector (2).svg" alt="" />
+      <img src="./img/Vector (3).svg" alt="" />
+
+    </div>
+  </div>
+</footer>
+</section>
+
+
+<!-- First Button and Modal Pair -->
+<div id="myModal1" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname1" name="fname" required><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname1" name="lname" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email1" name="email" required><br>
+      <label for="subject">Subject:</label><br>
+      <textarea id="subject1" name="subject" required></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+
+<!-- Second Button and Modal Pair -->
+<div id="myModal2" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname2" name="fname" required><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname2" name="lname" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email2" name="email" required><br>
+      <label for="subject">Subject:</label><br>
+      <textarea id="subject2" name="subject" required></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+<!-- Third Button and Modal Pair -->
+<div id="myModal3" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname3" name="fname" required><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname3" name="lname" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email3" name="email" required><br>
+      <label for="subject">Subject:</label><br>
+      <textarea id="subject3" name="subject" required></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+</div>
+</section>
+<!--
+ create a form for modal -->
+
+
+<!-- SECTION FOR MOBILE CONTENT -->
+ <!-- SECTION FOR MOBILE CONTENT -->
+  <!-- SECTION FOR MOBILE CONTENT -->
+
+<section class="mobile-display">
+  
+    <div class="navbarbigdiv1">
+      <div class="toggle-btnn" onclick="toggleSidebar()">
+        <img src="./img/Frame 13.svg" alt="Toggle Navigation" />
+    </div>
+      <div><img src="./img/Frame 62.svg" alt="" /></div>
+    </div>
+    <div class="sidebar" id="sidebar">
+      <h2>Navigation</h2>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#testimonial">Testimonial</a>
+      <a href="#contact">Contact</a>
+  </div>
+  <div>
+    <img src="./img/image 19.jpg" alt="" class="sola-img"  id="home"/>
+    <p class="line1"></p>
+    <p class="sola">
+      I'M SOLANI </p>
+      <p class="sola2">A WEB DEVELOPER
+    </p>
+    <p class="icraft">
+      I craft high-performing, beautiful websites that are
+      <br />conversion-focused, brand-accurate, <br />
+      and people-friendly.
+    </p>
+  </div>
+
+  <button class="modal-button1" id="openModalBtn1" data-modal="talk"><span class="init">LET'S TALK</span></button>
+  <p class="follow">Follow me</p>
+  <div class="fff">
+    <a href="https://dribbble.com/"> <img src="./img/dribbble.svg" alt="" /></a>
+    <a href="https://www.linkedin.com/login"> <img src="./img/Vector (1).svg" alt="" /></a>
+    <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"> <img src="./img/Vector (2).svg" alt="" /></a>
+    <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Faccountscenter.instagram.com%2F%3Fentry_point%3Dapp_settings%26__coig_login%3D1"><img src="./img/Vector (3).svg" alt="" /></a>
+     
+  </div>
+
+  <div class="services" id="services">
+    <p class="line2"></p>
+    <p class="SIO">SERVICES I OFFER </p>
+<p class="solvee">i will help you with finding a solution and solve your problem.</p>
+<p> <span class="one1">01</span> <span class="webo">Web Design</span> <button class="toggle-btnm1" onclick="toggleVisibility('lor1')"><img src="./img/Frame 2.svg" alt=""></button></p>
+<p class="lor1 hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</p>
+
+
+<p> <span class="one1">02</span> <span class="webo">Web Design</span> <button class="toggle-btnm2" onclick="toggleVisibility('lor2')"><img src="./img/Frame 2.svg" alt=""></button></p>
+<p class="lor2 hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</p>
+
+
+
+<p> <span class="one1">03</span> <span class="webo">Web Design</span> <button class="toggle-btnm3" onclick="toggleVisibility('lor3')"><img src="./img/Frame 2.svg" alt=""></button></p>
+<p class="lor3 hidden ">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</p>
+<button class="modal-button2" data-modal="talk">Let’s Talk</button> 
+</div>
+
+  <div class="lll" id="portfolio">
+    <p class="line"></p>
+    <p class="seroff1">SELECTED WORK</p>
+
+    <p class="takealook">Take a look at some of the projects I have done.</p>
+  </div>
+  <div class="works">
+    <div><img src="./img/unsplash1.png" alt="" class="u1" /></div>
+    <div class="aSX">
+      <p class="Sx">SportX - Website design</p>
+      <p class="SW">Sports Website Design</p>
+      <p class="lo1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis, lectus magna fringilla urna,
+        porttitor
+      </p>
+      <p>
+        <span class="k1">KNOW MORE</span>
+        <button><img src="./img/works arrow.svg" alt="" /></button>
+      </p>
+    </div>
+  </div>
+  <br />
+  <!-- DDDDDDDDDDDDDDDDDDDDDDDDD -->
+
+  <div class="works">
+    <div>
+      <img src="./img/unsplash_d2w-_1LJioQ (1).png" alt="" class="u1" />
+    </div>
+    <div class="aSX">
+      <p class="Sx">SportX - Website design</p>
+      <p class="SW">Sports Website Design</p>
+      <p class="lo1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis, lectus magna fringilla urna,
+        porttitor
+      </p>
+      <p>
+        <span class="k1">KNOW MORE</span>
+        <button><img src="./img/works arrow.svg" alt="" /></button>
+      </p>
+    </div>
+  </div>
+  <br />
+  <!-- hhhhhhhhhhhhhhhhhhhhh -->
+
+  <div class="works">
+    <div>
+      <img src="./img/unsplash_d2w-_1LJioQ (2).png" alt="" class="u1" />
+    </div>
+    <div class="aSX">
+      <p class="Sx">SportX - Website design</p>
+      <p class="SW">Sports Website Design</p>
+      <p class="lo1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+        purus sit amet luctus venenatis, lectus magna fringilla urna,
+        porttitor
+      </p>
+      <p>
+        <span class="k1">KNOW MORE</span>
+        <button><img src="./img/works arrow.svg" alt="" /></button>
+      </p>
+    </div>
+  </div>
+  <br />
+  <button class="browse"><span class="all">BROWSE ALL</span></button>
+  <br />
+  <br />
+
+  <div class="testi" id="Testi">
+    <div id="testimonial">
+      <p class="line2"></p>
+      <p class="testii">TESTIMONIALS</p>
+      <p class="what">What people say about me</p>
+    </div>
+<div class="noost" id="testiContent">
+<div class="recc" id="testiImage"><img src="./img/Rectangle 7.png" alt=""></div>
+<div><img src="./img/quote.svg" alt="">
+<p class="ib" id="testiText">I’ve been to a few different places before but nothing compares to this. The flexible schedule is great.</p></div>
+</div>
+   
+<div class="lasttttt">
+<div>
+  <p class="andy" id="testiAuthor">Andy Smith</p>
+<p class="founder" id="testiRole">Founder Apple</p>
+</div>
+<div>
+<img src="./img/testiminal arrow left.svg" alt="" id="leftyArrow">
+<img src="./img/testiminal arrow right.svg" alt="" id="rightyArrow">
+</div>
+</div>
+
+<!-- Modal HTML -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname1" name="fname" required><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname1" name="lname" required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email1" name="email" required><br>
+          <label for="subject">Subject:</label><br>
+          <textarea id="subject1" name="subject" required></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+</div>
+<div class="kclass">
+  <p class="keep">Keep in touch with me
+    Say Hi!</p>
+    <div class="">
+      <button class="modal-button3" data-modal="talk"><span class="starrr">Start a Conversation</span></button>
+</div>
+
+<div class="foooclass">
+  <div class="feet">
+    <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#testimonial">Testimonial</a>
+    
+  </div>
+  <div class="feeim">
+    <a href="https://dribbble.com/"> <img src="./img/dribbble.svg" alt="" /></a>
+    <a href="https://www.linkedin.com/login"> <img src="./img/Vector (1).svg" alt="" /></a>
+    <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"> <img src="./img/Vector (2).svg" alt="" /></a>
+    <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Faccountscenter.instagram.com%2F%3Fentry_point%3Dapp_settings%26__coig_login%3D1"><img src="./img/Vector (3).svg" alt="" /></a>
+     
+  </div>
+</div>
+
+</section>
+<script src="./script.js" defer></script>
+</body>
+</html>
